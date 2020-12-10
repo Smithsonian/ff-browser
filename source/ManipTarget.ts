@@ -9,7 +9,7 @@ import { ITypedEvent } from "@ff/core/Publisher";
 
 ////////////////////////////////////////////////////////////////////////////////
 
-const _DRAG_DISTANCE = 2;
+const _DRAG_DISTANCE = 4;
 
 export type PointerEventType = "pointer-down" | "pointer-up" | "pointer-hover" | "pointer-move";
 export type TriggerEventType = "wheel" | "double-click" | "context-menu";
